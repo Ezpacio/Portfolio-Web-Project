@@ -1,0 +1,185 @@
+/* Screen 1550px */
+@media(max-width: 1555px){
+    .left-side-bar{
+        max-width: 350px;
+        padding: 30px;
+        width: 100%;
+    }
+    .left-side-bar img.person-img{
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto 46px auto;
+    }
+    .left-side-bar .side-bar-header .personal-title{
+        line-height: 1.4;
+    }
+}
+/* Screen 1300px */
+@media(max-width: 1300px){
+    .container{
+        max-width: 767px;
+    }
+    .content-with{
+        max-width: 100%;
+    }
+    .left-side-bar{
+        position: relative;
+        max-width: 767px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin: auto;
+        transform: translateY(0);
+        margin-top: 20px;
+        display: block;
+    }
+    .left-side-bar img.person-img{
+        width: auto;
+        display: block;
+    }
+    .iconMenu .menu-list{
+        display: none;
+    }
+    #sideBarIcon{
+        position: fixed;
+    }
+    section#about, section#resume{
+        padding-bottom: 50px;
+    }
+    .section-header h1 br{
+        display: none;
+    }
+    .about-content p{
+        max-width: 100%;
+    }
+    .services-content .services-items{
+        flex-direction: row;
+        gap: 15px;
+    }
+    .services-content .services-items .item{
+        margin-bottom: 0;
+        padding: 30px;
+        width: 33.3333%;
+    }
+    .services-content .services-items .item .item-head i{
+        position: absolute;
+        font-size: 20px;
+        top: 25px;
+        right: 20px;
+    }
+    .services-content .services-items .item .item-head h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .services-content .services-items .item p{
+        margin-bottom: 25px;
+    }
+    section#testimonial{
+        padding-top: 50px;
+    }
+    .pricing-table .tables .table-outer .table-items a.theme-btn{
+
+        padding: 11px 40px 10px 40px;
+    }
+}
+@media (max-width: 787px){
+    section#home .home-content-header h1{
+        font-size: 58px;
+        line-height: 1.3;
+    }
+    section#home .home-content .experiences h1{
+        font-size: 52px;
+    }
+    .icon-menu{
+        top: 30px;
+        right: 30px;
+    }
+    .home-content a.rotating{
+        margin-left: 0;
+    }
+    .skills-content .skills-items .item{
+        width: 50%;
+    }
+    .testimonial-content .clients-logos .logos .logos-item{
+        width: 33.3333%;
+        margin-bottom: 54px;
+    }
+    section#pricing{
+        padding-top: 50px;
+    }
+    .pricing-content .pricing-table .tables .table-items{
+        margin-bottom: 15px;
+        display: block;
+        height: auto;
+    }
+    .pricing-content .pricing-table .tables .table-outer{
+        max-width: 100%;
+        width: 100%;
+    }
+    .pricing-content .pricing-table .tables .table-items ul{
+        margin-bottom: 50px;
+    }
+    .pricing-table .tables .table-outer .table-items a.theme-btn{
+        width: 100%;
+        padding: 13px 20px;
+    }
+    section#contact{
+        margin-bottom: 50px
+    }
+    .services-content .services-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .services-content .services-items .item{
+        width: 100%;
+    }
+}    
+@media (max-width: 580px){
+    .services-content .services-items{
+        grid-template-columns: 1fr;
+    }
+    h4.content-title{
+        margin-bottom: 40px;
+    }
+    .section-header h1{
+        font-size: 38px;
+        line-height: 1.4;
+    }
+    section#home,section#about,section#resume,
+    section#services,section#skills{
+        padding-bottom: 0;
+    }
+    section#home .home-content-header h1{
+        font-size: 50px;
+    }
+    section#home .home-content .experiences{
+        gap: 20px;
+    }
+    section#home .home-content .experiences h1{
+        font-size: 48px;
+        margin-bottom: 25px;
+    }
+    section#home .home-content .experiences p br{
+        display: none;
+    }
+    .resume-timline .timeline-item{
+        padding-left: 50px;
+    }
+    section#portfolios{
+        padding-top: 40px;
+    }
+    .portfolios-content .portfolios-items .item{
+        width: 100%;
+    }
+    section#contact{
+        padding-bottom: 80px;
+    }
+    .testimonial-content .clients-logos .logos .logos-item{
+        width: 50%;
+    }
+}
+@media (max-width: 425px){
+    .contact-content form .form-inner .input-outer-1{
+        width: 100%;
+    }
+}
